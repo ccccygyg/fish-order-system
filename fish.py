@@ -6,7 +6,7 @@ import io
 
 # --- 1. 基本設定 ---
 # 請記得換成你最新的部署網址
-SCRIPT_URL = "你的最新GAS網址"
+SCRIPT_URL = "https://script.google.com/macros/s/AKfycbztsfvudidEPf6MCHET23-KQqjFh3yS8_2tXgNHzlpIGC4r03yFq9JjOK4qG9J4gfAd/exec"
 
 def process_image(content):
     img = Image.open(io.BytesIO(content))
